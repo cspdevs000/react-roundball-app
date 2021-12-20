@@ -3,7 +3,7 @@ import React, { Component } from "react";
 //component
 import Menu from "./Menu";
 
-const header = {
+const navbar = {
     title: 'Mets announce Showalter as new manager',
     link: 'https://www.mlb.com/news/buck-showalter-mets-manager'
 }
@@ -71,8 +71,8 @@ class Cover extends Component {
                 </figure>
               </div>
               <div className="column is-6 is-offset-1">
-                <h1 className="title is-2">{header.title}</h1>
-                <a className="button is-medium is-info is-outlined" href={header.link}>
+                <h1 className="title is-2">{navbar.title}</h1>
+                <a className="button is-medium is-info is-outlined" href={navbar.link}>
                     Link to Article
                 </a>
               </div>
@@ -83,11 +83,7 @@ class Cover extends Component {
         <div className="hero-foot">
           <div className="container">
             <div className="tabs is-centered">
-              <ul>
-                <li>
                   <a>THE END</a>
-                </li>
-              </ul>
             </div>
           </div>
         </div>
