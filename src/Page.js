@@ -72,14 +72,9 @@ class Cover extends Component {
               </div>
               <div className="column is-6 is-offset-1">
                 <h1 className="title is-2">{header.title}</h1>
-                <h2 className="subtitle is-4">
-                  {header.subTitle}
-                </h2>
                 <a className="button is-medium is-info is-outlined" href={header.link}>
-                    Read more
+                    Link to Article
                 </a>
-                <p className="has-text-centered">
-                </p>
               </div>
             </div>
           </div>
