@@ -3,12 +3,12 @@ import React, { Component } from "react";
 //component
 import Menu from "./Menu";
 
-const navbar = {
+const article = {
     title: 'Mets announce Showalter as new manager',
     link: 'https://www.mlb.com/news/buck-showalter-mets-manager'
 }
 
-const menuList = [
+const navbar = [
 {
     name:'Home',
     link: 'https://www.mlb.com'
@@ -24,7 +24,7 @@ const menuList = [
 },
 ]
 
-const displayMenuList = menuList.map((menu,index)=>{
+const displayNavbar = navbar.map((menu,index)=>{
     return (
        <Menu key={index} link={menu.link} name={menu.name} />
     )
@@ -51,7 +51,7 @@ class Cover extends Component {
                 <div className="navbar-end">
                   <div className="tabs is-right">
                     <ul>
-                      {displayMenuList}
+                      {displayNavbar}
                     </ul>
                   </div>
                 </div>
@@ -71,8 +71,8 @@ class Cover extends Component {
                 </figure>
               </div>
               <div className="column is-6 is-offset-1">
-                <h1 className="title is-2">{navbar.title}</h1>
-                <a className="button is-medium is-info is-outlined" href={navbar.link}>
+                <h1 className="title is-2">{article.title}</h1>
+                <a className="button is-medium is-info is-outlined" href={article.link}>
                     Link to Article
                 </a>
               </div>
