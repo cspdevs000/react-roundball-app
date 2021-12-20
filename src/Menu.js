@@ -6,7 +6,7 @@ class Menu extends Component {
     }
     render() {
         return (
-            <div className="tabs is-right" key={this.props.index}>
+            <div className="tabs" key={this.props.index}>
                 <ul>
                     <li>
                         <a href={this.props.link}>{this.props.name}</a>

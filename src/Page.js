@@ -70,8 +70,8 @@ class Cover extends Component {
               <br></br>
               <div id="navbarMenu" className="navbar-menu">
                 <div className="navbar-end">
-                  <div className="tabs is-right">
-                    <ul>
+                  <div className="tabs">
+                    <ul class="navbarMenu">
                       {displayNavbar}
                     </ul>
                   </div>
