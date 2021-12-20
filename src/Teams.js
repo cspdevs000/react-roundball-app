@@ -2,29 +2,29 @@ import React, { Component } from 'react';
 
 const payload = [
     {
-      name: 'Roundball Player 2',
-      team: 'Team 2'
+      team: 'Roundball Team 2',
+      city: 'City 2'
     },
     {
-      name: 'Roundball Player 3',
-      team: 'Team 3'
+      team: 'Roundball Team 3',
+      city: 'City 3'
     },
     {
-      name: 'Roundball Player 4',
-      team: 'Team 4'
+      team: 'Roundball Team 4',
+      city: 'City 4'
     },
     {
-      name: 'Roundball Player 5',
-      team: 'Team 5'
+      team: 'Roundball Team 5',
+      city: 'City 5'
     },
   ]
 
   
-const displayTeams = payload.map((player, idx) => {
+const displayTeams = payload.map((team, idx) => {
       return(
             <div key={idx}>
-            <h1>Name: {player.name}</h1>
-            <p>Team: {player.team}</p>
+            <h1>Team: {team.team}</h1>
+            <p>City: {team.city}</p>
             </div>
     );
 })
@@ -35,8 +35,8 @@ class Teams extends Component {
         <div className="Teams">
             <h1>Teams</h1>
             <div>
-                <h2>{player.name}</h2>
-                <p>{player.team}</p>
+                <h2>{Teams.team}</h2>
+                <p>{Teams.city}</p>
                 <div>
                     {displayTeams}
                 </div>

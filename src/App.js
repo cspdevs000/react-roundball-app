@@ -1,11 +1,15 @@
-import './App.css';
 import React, { Component } from 'react';
+import './App.css';
 import Teams from './Teams';
+import Players from './Players';
+import Page from './Page';
 
 function App() {
   return (
     <div className="App">
-      <Teams />
+      <Page />
+      {/* <Teams /> */}
+      {/* <Players /> */}
     </div>
   );
 }

@@ -2,9 +2,21 @@
   text-align: center;
 }
 
+.Teams {
+  color: rgb(138, 95, 43)
+}
+
+.Players {
+  color: darkgreen
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+}
+
+li {
+  list-style-type: none;
 }
 
 @media (prefers-reduced-motion: no-preference) {
