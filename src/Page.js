@@ -10,6 +10,9 @@ const navbar = {
 
 const menuList = [
 {
+    name:'Home',
+    link: 'https://www.mlb.com'
+},{
     name:'Scores',
     link: 'https://www.mlb.com/scores'
 },{
@@ -48,9 +51,6 @@ class Cover extends Component {
                 <div className="navbar-end">
                   <div className="tabs is-right">
                     <ul>
-                      <li className="is-active">
-                        <a href="https://www.mlb.com">Home </a>
-                      </li>
                       {displayMenuList}
                     </ul>
                   </div>

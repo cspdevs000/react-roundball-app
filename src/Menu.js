@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 
 class Menu extends Component {
-    constructor(props) {  //=== Access info from another (parent) Component==//
+    constructor(props) { 
         super(props);
     }
     render() {
