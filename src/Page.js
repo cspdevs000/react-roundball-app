@@ -58,8 +58,8 @@ const displayNavbar = navbar.map((menu,index)=>{
 class Cover extends Component {
   render() {
     return (
-      <section className="hero is-fullheight is-default is-bold">
-        <div className="hero-head">
+      <section className="pageSection">
+        <div className="header">
           <nav className="navbar">
             <div className="container">
               <div className="navbar-brand">
@@ -82,10 +82,10 @@ class Cover extends Component {
         </div>
         <br></br>
         <div className="hero-body">
-          <div className="container has-text-centered">
-            <div className="columns is-vcentered">
-              <div className="column is-5">
-                <figure className="image is-4by3">
+          <div className="container">
+            <div className="column">
+              <div className="columns">
+                <figure className="image">
                   <img
                     class="frontPageImg"
                     src="https://external-preview.redd.it/DJIyFooigzYQorz7vabm1noVvwHvHgz0z61xHvJZGa8.jpg?auto=webp&s=aa26a6a1434166260476308db11dacdb59439058"
@@ -94,7 +94,7 @@ class Cover extends Component {
                 </figure>
               </div>
               <br></br>
-              <div className="column is-6 is-offset-1">
+              <div className="colums">
                 <ol>
                   <li>
                   {displayArticles}
@@ -105,12 +105,8 @@ class Cover extends Component {
           </div>
         </div>
 
-        <div className="hero-foot">
-          <div className="container">
-            <div className="tabs is-centered">
-                  <a>THE END</a>
-            </div>
-          </div>
+        <div className="footer">
+            <a>THE END</a>
         </div>
       </section>
     );
