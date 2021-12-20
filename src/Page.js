@@ -83,7 +83,7 @@ class Cover extends Component {
         <div className="hero-foot">
           <div className="container">
             <div className="tabs is-centered">
-                <br></br><br></br>
+                <br></br>
                   <a>THE END</a>
             </div>
           </div>
