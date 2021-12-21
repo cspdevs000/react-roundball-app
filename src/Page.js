@@ -2,7 +2,7 @@ import React, { Component } from "react";
 
 //component
 import Menu from "./Menu";
-import Article from "./Article"
+import Article from "./Article";
 
 const articles = [
 {
@@ -94,7 +94,7 @@ class Cover extends Component {
                 </figure>
               </div>
               <br></br>
-              <div className="colums">
+              <div className="columns">
                 <ol>
                   <li>
                   {displayArticles}
